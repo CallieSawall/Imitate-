@@ -7,13 +7,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="butterfly-container">
-    <div class="butterfly-wrapper">
-      <img src="butterfly.jpg" alt="Butterfly">
-    </div>
-    <p>Butterfly</p>
-  </div>
+ .butterfly-container {
+  text-align: center;
+}
 
+.butterfly-wrapper {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butterfly-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: hue-rotate(240deg);
+}
+
+.butterfly-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
   <div class="seagull-container">
     <div class="seagull-wrapper">
       <img src="seagull.png" alt="Seagull">
@@ -32,24 +51,37 @@
     <div class="tic-tac-toe-border">
       <div class="row">
        <span class="symbol">X</span>
-        <span class="symbol">O</span>
+          <span class="symbol">O</span>  
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
         <span class="symbol">X</span>
-        <span class="symbol">O</span>
-         <span class="symbol">X</span>
-        <span class="symbol">O</span>
       </div>
       <div class="row">
         <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
         <img src="football_field.jpg" alt="Football Field">
         <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
       </div>
       <div class="row">
+        <span class="symbol">O</span>  
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
+          <span class="symbol">O</span>
         <span class="symbol">X</span>
-        <span class="symbol">O</span>
-        <span class="symbol">X</span>
-        <span class="symbol">O</span>
-         <span class="symbol">X</span>
-        <span class="symbol">O</span>
       </div>
     </div>
     <p>Football Field with Tic-Tac-Toe Border</p>
