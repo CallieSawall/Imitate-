@@ -10,7 +10,6 @@ body {
   background-color: #f0f0f0;
   margin: 0;
 }
-
 .butterfly-container {
   text-align: center;
 }
@@ -19,8 +18,7 @@ body {
   width: 300px;
   height: 200px;
   overflow: hidden;
-  border-radius: 50% 0 50% 0;
-  background: #555;
+  border-radius: 20px 0 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +28,7 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
+  filter: hue-rotate(240deg);
 }
 
 .butterfly-container p {
