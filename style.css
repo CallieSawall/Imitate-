@@ -28,7 +28,7 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
-  filter: hue-rotate(240deg);
+  filter: invert(100%) hue-rotate(180deg) saturate(200%);
 }
 
 .butterfly-container p {
@@ -168,7 +168,7 @@ body {
   width: 80%;
   height: auto;
   object-fit: contain;
-  filter: hue-rotate(180deg);
+  filter: hue-rotate(190deg) saturate(150%);
 }
 
 .dinosaur-container p {
